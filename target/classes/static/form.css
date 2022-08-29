@@ -1,0 +1,17 @@
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.5s;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
+
+input:hover {
+    border: 1px solid indianred;
+
+}

@@ -1,0 +1,82 @@
+#logo {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#menu {
+    text-align: center;
+    border-bottom: 1px solid black;
+    height: 35px;
+}
+
+#menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 5px 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: color, background 0.5s;
+}
+
+#menu a:hover {
+    background: indianred;
+    color: white;
+}
+
+#menu #user-login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 5px 15px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.item {
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.item:hover {
+    color: white;
+    background: indianred;
+    border: 1px solid indianred;
+}
+
+.item .name {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.item .producer {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.item .description {
+    font-size: 18px;
+}
+
+.item .quantity {
+    font-size: 17px;
+    margin-top: 10px;
+}
